@@ -1,6 +1,6 @@
 <template>
     <v-card flat class="px-10 py-2 mx-auto" style="max-width: 1000px">
-        <v-card-title>Hallo,</v-card-title>
+        <v-card-title><h2>Hallo,</h2></v-card-title>
         <v-card-text>
             <v-row>
                 <v-col cols="12" style="display: inline-flex">
