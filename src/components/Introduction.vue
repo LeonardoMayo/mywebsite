@@ -9,9 +9,8 @@
                         In meiner Freizeit arbeite ich gerne an kleinen und großen Projekten, auch außerhalb meiner Spezialisierungen.
                         Seien es Microcontoller, Hardware Upcycling oder auch 3D / CAD Themen. Außerhalb der IT schneide ich gerne Videos, fahr Mountainbike und... so Zeugs eben.
                     </p>
-                    <v-avatar size="7.5vw">
-                        <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John">
-                    </v-avatar>
+                    <div id="avatarImg">
+                    </div>
                 </v-col>
             </v-row>
         </v-card-text>
@@ -19,11 +18,25 @@
 </template>
 
 <script>
+import lebenslaufBild from '@/assets/Bilder/lebenslaufbild.jpg';
+
 export default {
-    name: 'Introduction'
+    name: 'Introduction',
+    data: () => ({
+        // Icons
+        lebenslaufBild
+    }),
 }
 </script>
 
 <style scoped lang="scss">
-
+#avatarImg {
+    background-image: url('../assets/Bilder/lebenslaufbild.jpg');
+    min-width: 128px;
+    width: 128px;
+    min-height: 128px;
+    height: 128px;
+    background-size: cover;
+    border-radius: 50%;
+}
 </style>
