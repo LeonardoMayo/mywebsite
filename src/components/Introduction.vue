@@ -3,11 +3,11 @@
         <v-card-title><h2>Hallo,</h2></v-card-title>
         <v-card-text>
             <v-row>
-                <v-col cols="12" style="display: inline-flex">
+                <v-col cols="12" style="display: inline-flex" class="px-0">
                     <p class="pr-1 mr-4">
                         ich bin Jan. Ich habe Software Engineering an der Hochschule Heilbronn studiert und mich auf Frontend und Mobile Lösungen spezialisiert.
                         In meiner Freizeit arbeite ich gerne an kleinen und großen Projekten, auch außerhalb meiner Spezialisierungen.
-                        Seien es Microcontoller, Hardware Upcycling oder auch 3D / CAD Themen. Außerhalb der IT schneide ich gerne Videos, fahr Mountainbike und... so Zeugs eben.
+                        Seien es Microcontoller, Hardware Upcycling oder auch 3D / CAD Themen. Neben der IT schneide ich gerne Videos, fahr Mountainbike und... so Zeugs eben.
                     </p>
                     <div id="avatarImg">
                     </div>
