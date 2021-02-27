@@ -26,21 +26,16 @@ import Footer from "@/components/Footer";
 import NavBar from "@/components/navdrawer/NavBar";
 
 export default {
-  name: 'App',
-    components: {NavBar, Footer},
-    data: () => ({
-    //
-  }),
-  methods: {
-    ...mapActions([ 'initAxiosInstance' ]),
-  },
-  created() {
-    this.initAxiosInstance();
-  },
-  beforeMount() {
-  },
-  mounted() {
-
-  },
+    name: 'App',
+    components: { NavBar, Footer },
+    data: () => ({}),
+    methods: {
+        ...mapActions([ 'initAxiosInstance' ]),
+    },
+    created() {
+        this.initAxiosInstance();
+    },
+    beforeMount() {},
+    mounted() {},
 };
 </script>
