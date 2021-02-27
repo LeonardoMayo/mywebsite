@@ -5,22 +5,43 @@
                 <Header />
             </v-col>
         </v-row>
-        <v-row>
-            <v-col>
-                <HelloWorld />
+        <v-row class="pa-0">
+            <v-col class="pa-0">
+                <Introduction />
+            </v-col>
+        </v-row>
+        <v-row class="pa-0">
+            <v-col class="pa-0">
+                <ProjectsList />
+            </v-col>
+        </v-row>
+        <v-row class="pa-0">
+            <v-col class="pa-0">
+                <Skills />
+            </v-col>
+        </v-row>
+        <v-row class="pa-0">
+            <v-col class="pa-0">
+                <JobTimeline />
             </v-col>
         </v-row>
     </v-container>
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
 import Header from "@/components/Header";
+import Introduction from "@/components/Introduction";
+import ProjectsList from "@/components/ProjectsList";
+import Skills from "@/components/Skills";
+import JobTimeline from "@/components/JobTimeline";
 
 export default {
     name: "Home",
     components: {
-        HelloWorld,
+        JobTimeline,
+        Skills,
+        ProjectsList,
+        Introduction,
         Header
     }
 }
