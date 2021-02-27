@@ -1,8 +1,8 @@
 <template>
-    <v-container fluid>
-        <v-row>
-            <v-col>
-                Hello world!
+    <v-container fluid class="pa-0">
+        <v-row class="pa-0">
+            <v-col class="pa-0">
+                <Header />
             </v-col>
         </v-row>
         <v-row>
@@ -15,11 +15,13 @@
 
 <script>
 import HelloWorld from "../components/HelloWorld";
+import Header from "@/components/Header";
 
 export default {
     name: "Home",
     components: {
-        HelloWorld
+        HelloWorld,
+        Header
     }
 }
 </script>
