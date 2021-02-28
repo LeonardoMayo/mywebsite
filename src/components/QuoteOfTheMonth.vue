@@ -16,13 +16,13 @@
 </template>
 
 <script>
-import qouteList from '@/util/QuotesOfTheMonth'
+import quoteList from '@/util/QuotesOfTheMonth'
 
 export default {
     name: 'QuoteOfTheMonth',
     data: () => ({
         currentQuote: null,
-        qouteList: qouteList
+        quoteList: quoteList
     }),
 }
 </script>
