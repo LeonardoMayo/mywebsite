@@ -7,6 +7,11 @@
         </v-row>
         <v-row class="pa-0">
             <v-col class="pa-0">
+                <QuoteOfTheMonth />
+            </v-col>
+        </v-row>
+        <v-row class="pa-0">
+            <v-col class="pa-0">
                 <Introduction />
             </v-col>
         </v-row>
@@ -34,10 +39,12 @@ import Introduction from "@/components/Introduction";
 import ProjectsList from "@/components/ProjectsList";
 import Skills from "@/components/Skills";
 import JobTimeline from "@/components/JobTimeline";
+import QuoteOfTheMonth from "@/components/QuoteOfTheMonth";
 
 export default {
     name: "Home",
     components: {
+        QuoteOfTheMonth,
         JobTimeline,
         Skills,
         ProjectsList,

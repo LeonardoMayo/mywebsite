@@ -5,13 +5,14 @@
             <v-timeline>
                 <v-timeline-item color="secondary">
                     <v-card outlined>
-                    <v-card-title>Software Developer</v-card-title>
-                    <v-card-text>
-                        Entwicklung mit Schwerpunkt auf Webfrontend mit Vue, sowie Prototyping
-                        <br/>
-                        Frühling 2021 - heute
-                    </v-card-text>
-                </v-card></v-timeline-item>
+                        <v-card-title>Software Developer</v-card-title>
+                        <v-card-text>
+                            Entwicklung mit Schwerpunkt auf Webfrontend mit Vue, sowie Prototyping
+                            <br/>
+                            Frühling 2021 - heute
+                        </v-card-text>
+                    </v-card>
+                </v-timeline-item>
                 <v-timeline-item color="secondary">
                     <v-card outlined class="text-right">
                         <v-card-title style="display: block">Studium Software Engineering</v-card-title>
