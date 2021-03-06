@@ -6,10 +6,10 @@
         width="450"
         id="quoteContainer"
     >
-        <p class="quote" id="saying">„Tue es, oder tue es nicht. Es gibt kein Versuchen.“</p>
+        <p class="quote" id="saying">"{{ currentQuote.saying }}"</p>
 <!--        <p>"Do or do not, there is no try."</p>-->
 <!--        -->
-        <p class="quote" id="author">Master Yoda, 3 NSY</p>
+        <p class="quote" id="author">{{ currentQuote.author }}, {{ currentQuote.dateOfOrigin }}</p>
 <!--        <p>Master Yoda, 3 ABY</p>-->
 <!--        -->
     </v-sheet>
@@ -22,8 +22,11 @@ export default {
     name: 'QuoteOfTheMonth',
     data: () => ({
         currentQuote: null,
-        quoteList: quoteList
+        quoteList,
     }),
+    beforeMount() {
+        this.currentQuote = this.quoteList[new Date().getMonth()];
+    },
 }
 </script>
 
