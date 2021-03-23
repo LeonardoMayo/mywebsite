@@ -3,10 +3,99 @@
         <v-card-title><h2>Skilltree</h2></v-card-title>
         <v-card-text>
             <v-row>
-                <v-col cols="4"><v-progress-circular size="50" value="75" /></v-col>
-                <v-col cols="4"><v-progress-circular size="50" value="75" /></v-col>
-                <v-col cols="4"><v-progress-circular size="50" value="75" /></v-col>
+                <v-col cols="4" class="topCol">
+                    <v-progress-circular size="75" value="95" color="accent">C#</v-progress-circular>
+                </v-col>
+                <v-col cols="4" class="topCol">
+                    <v-progress-circular size="75" value="95" color="accent">JS</v-progress-circular>
+                </v-col>
+                <v-col cols="4" class="topCol">
+                    <v-progress-circular size="75" value="95" color="accent">Unity</v-progress-circular>
+                </v-col>
             </v-row>
+
+            <div style="height: 2em"></div>
+
+            <!-- Other languages -->
+            <v-row dense class="skillRows">
+                <v-col>
+                    <v-progress-linear height="15" value="90" color="accent" dark>HTML/CSS</v-progress-linear>
+                </v-col>
+            </v-row>
+            <v-row dense class="skillRows">
+                <v-col>
+                    <v-progress-linear height="15" value="80" color="accent" dark>VueJS</v-progress-linear>
+                </v-col>
+            </v-row>
+            <v-row dense class="skillRows">
+                <v-col>
+                    <v-progress-linear height="15" value="80" color="accent" dark>Java</v-progress-linear>
+                </v-col>
+            </v-row>
+            <v-row dense class="skillRows">
+                <v-col>
+                    <v-progress-linear height="15" value="80" color="accent" dark>Python</v-progress-linear>
+                </v-col>
+            </v-row>
+            <v-row dense class="skillRows">
+                <v-col>
+                    <v-progress-linear height="15" value="80" color="accent" dark>C++</v-progress-linear>
+                </v-col>
+            </v-row>
+            <v-row dense class="skillRows">
+                <v-col>
+                    <v-progress-linear height="15" value="80" color="accent" dark>NodeJS</v-progress-linear>
+                </v-col>
+            </v-row>
+
+            <div style="height: 2em"></div>
+
+            <!-- more Buzzwords -->
+            <v-row>
+                <v-col>
+                    <v-chip
+                        v-for="buzzword in suplementaryBuzzwords"
+                        :key="buzzword.index"
+                    >
+                        {{ buzzword }}
+                    </v-chip>
+                </v-col>
+            </v-row>
+
+            <div style="height: 2em"></div>
+
+            <!-- Human languages -->
+            <v-row dense class="skillRows">
+                <v-col cols="10">
+                    <v-progress-linear height="15" value="95" color="accent" dark>Muttersprache</v-progress-linear>
+                </v-col>
+                <v-col>
+                    <span>Deutsch</span>
+                </v-col>
+            </v-row>
+            <v-row dense class="skillRows">
+                <v-col cols="10">
+                    <v-progress-linear height="15" value="95" color="accent" dark>Fließend</v-progress-linear>
+                </v-col>
+                <v-col>
+                    <span>Englisch</span>
+                </v-col>
+            </v-row>
+            <v-row dense class="skillRows">
+                <v-col cols="10">
+                    <v-progress-linear height="15" value="95" color="accent" dark>Gut</v-progress-linear>
+                </v-col>
+                <v-col>
+                    <span>Französisch</span>
+                </v-col>
+            </v-row>
+            <v-row dense class="skillRows">
+                <v-col cols="10">
+                    <v-progress-linear height="15" value="95" color="accent" dark>Grundlagen</v-progress-linear>
+                </v-col>
+                <v-col><span>Chinesisch</span></v-col>
+            </v-row>
+
         </v-card-text>
     </v-card>
 </template>
@@ -14,9 +103,20 @@
 <script>
 export default {
     name: 'Skills',
+    data: () => ({
+        suplementaryBuzzwords: [ 'socket.io', 'ARCore & ARKit', 'SolidEdge', 'MongoDB' ]
+    }),
 }
 </script>
 
 <style scoped lang="scss">
+.topCol {
+    justify-content: center !important;
+    display: inline-flex !important;
+}
 
+.skillRows {
+    max-width: 75%;
+    margin: auto;
+}
 </style>

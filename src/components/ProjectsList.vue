@@ -26,7 +26,7 @@
 import ProjectCard from "@/components/ProjectCard";
 export default {
     name: 'ProjectsList',
-    components: {ProjectCard},
+    components: { ProjectCard },
     data: () => ({
         model: true,
     }),
