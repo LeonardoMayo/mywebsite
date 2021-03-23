@@ -22,12 +22,17 @@
         </v-row>
         <v-row class="pa-0">
             <v-col class="pa-0">
+                <JobTimeline />
+            </v-col>
+        </v-row>
+        <v-row class="pa-0">
+            <v-col class="pa-0">
                 <Skills />
             </v-col>
         </v-row>
         <v-row class="pa-0">
             <v-col class="pa-0">
-                <JobTimeline />
+                <Contact/>
             </v-col>
         </v-row>
     </v-container>
@@ -40,10 +45,12 @@ import ProjectsList from "@/components/ProjectsList";
 import Skills from "@/components/Skills";
 import JobTimeline from "@/components/JobTimeline";
 import QuoteOfTheMonth from "@/components/QuoteOfTheMonth";
+import Contact from "@/components/Contact";
 
 export default {
     name: "Home",
     components: {
+        Contact,
         QuoteOfTheMonth,
         JobTimeline,
         Skills,

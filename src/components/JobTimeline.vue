@@ -66,10 +66,10 @@
                         <v-icon size="20px" dark>mdi-school-outline</v-icon>
                     </template>
                     <v-card outlined>
-                        <v-card-title style="display: block">Studium Software Engineering</v-card-title>
+                        <v-card-title style="display: block">Software Engineering Bachelor</v-card-title>
                         <v-card-subtitle>Hochschule Heilbronn</v-card-subtitle>
                         <v-card-text>
-                            Studium mit Schwerpunkten Games Engineering und IT Management
+                            Software Engineering Studium mit Schwerpunkten Games Engineering und IT Management
                             <br/>
                             Winter 2016 - Frühling 2021
                         </v-card-text>
