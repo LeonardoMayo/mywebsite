@@ -51,9 +51,12 @@
             <div style="height: 2em"></div>
 
             <!-- more Buzzwords -->
-            <v-row>
+            <v-row dense class="skillRows">
                 <v-col>
                     <v-chip
+                        dark
+                        color="secondary"
+                        class="buzzwordChip"
                         v-for="buzzword in suplementaryBuzzwords"
                         :key="buzzword.index"
                     >
@@ -118,5 +121,9 @@ export default {
 .skillRows {
     max-width: 75%;
     margin: auto;
+}
+
+.buzzwordChip {
+    margin: 0.5em;
 }
 </style>

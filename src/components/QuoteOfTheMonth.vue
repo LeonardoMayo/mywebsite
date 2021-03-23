@@ -16,13 +16,13 @@
 </template>
 
 <script>
-import quoteList from '@/util/QuotesOfTheMonth'
+import quotes from '@/util/QuotesOfTheMonth'
 
 export default {
     name: 'QuoteOfTheMonth',
     data: () => ({
         currentQuote: null,
-        quoteList,
+        quoteList: quotes.quoteList,
     }),
     beforeMount() {
         this.currentQuote = this.quoteList[new Date().getMonth()];
