@@ -12,7 +12,7 @@ const routes = [
   // Home
   { path: '/', name:'home', component: Home },
   { path: '/ar-pvplatform/datenschutz', name: 'ARPvPDatenschutz', component: ARPvPDatenschutz },
-  { path: '/ar-pvplatform/privacy', name: 'ARPvPDatenschutz', component: ARPvPDatenschutz }
+  { path: '/ar-pvplatform/privacy', name: 'ARPvPPrivacy', component: ARPvPDatenschutz }
 ]
 
 Vue.config.productionTip = false;

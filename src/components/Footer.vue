@@ -1,7 +1,7 @@
 <template>
     <v-card flat tile class="grey lighten-3 text-center" width="100%">
         <v-card-text>
-            <v-tooltip bottom v-for="icon in icons" :key="icon">
+            <v-tooltip bottom v-for="icon in icons" :key="icon.index">
                 <template v-slot:activator="{ on, attrs }">
                     <v-btn class="mx-4" icon v-bind="attrs" v-on="on" @click="openLink(icon.link)">
                         <v-icon size="24px">
