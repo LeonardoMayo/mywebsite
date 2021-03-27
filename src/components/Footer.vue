@@ -17,6 +17,7 @@
         <v-divider></v-divider>
 
         <v-card-text>
+                <a class="footerLinks">Sitemap</a>
                 <a class="footerLinks">AR PvPlatform Datenschutzbestimmung</a>
                 <a class="footerLinks">Impressum</a>
         </v-card-text>
