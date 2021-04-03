@@ -1,6 +1,8 @@
 <template>
     <v-card flat class="px-10 py-2 mx-auto" style="max-width: 1000px">
-        <v-card-title><h2>Projekt Blog</h2></v-card-title>
+        <v-card-title><h2>Meine Projekte</h2></v-card-title>
+        <v-card-subtitle>Hier sind meine aktuellsten Projekte aufgelistet. Dazu zählen Updates zu alten Projekten,
+            kleinere Ideen für Zwischendurch oder auch Nicht-IT-Themen wie Fototrips.</v-card-subtitle>
         <v-card-text>
             <v-carousel v-model="model" style="height: 500px"
                         hide-delimiter-background
