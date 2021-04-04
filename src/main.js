@@ -7,10 +7,12 @@ import store from './store';
 // Components
 import Home from "@/views/Home";
 import ARPvPDatenschutz from '@/components/thesis/Datenschutz';
+import KickoffThesisApp from "@/components/articles/KickoffThesisApp";
 
 const routes = [
   // Home
   { path: '/', name:'home', component: Home },
+  { path: '/ar-pvplatform/kickoff', name: 'ARPvPErsterArtikel', component: KickoffThesisApp },
   { path: '/ar-pvplatform/datenschutz', name: 'ARPvPDatenschutz', component: ARPvPDatenschutz },
   { path: '/ar-pvplatform/privacy', name: 'ARPvPPrivacy', component: ARPvPDatenschutz }
 ]

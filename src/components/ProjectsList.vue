@@ -15,7 +15,7 @@
                             :small-description="'Ein Projekt für ein 1v1 Augmented Reality Game in dem ' +
                              'Spieler sich ihren Weg zum Ziel bauen müssen, in einer AR Umgebung. ' +
                              'Dieses Projekt war Teil meiner Bachelor-Thesis.'"
-                            :link-to-article="'/ar-pvplatform/datenschutz'"
+                            :link-to-article="'/ar-pvplatform/kickoff'"
                         />
                     </div>
                 </v-carousel-item>
