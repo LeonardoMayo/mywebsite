@@ -1,15 +1,21 @@
 <template>
-    <v-card flat class="px-10 py-2 mx-auto" style="max-width: 1000px">
+    <v-card flat class="px-10 pb-2 mx-auto" style="max-width: 1000px">
+
+        <SmallHeader
+            text="Meine Bachelorthesis - Interaktionsdesign in kollaborativen Augmented Reality Umgebungen"
+        />
+
         <!-- Title Row -->
-        <v-row>
+        <v-row class="my-4">
             <v-col>
-                <h3>Interaktionsdesign in kollaborativen Augmented Reality Umgebungen - Ein Anwendungsbeispiel</h3>
+                <h2>Interaktionsdesign in kollaborativen Augmented Reality Umgebungen - Ein Anwendungsbeispiel</h2>
             </v-col>
         </v-row>
         <v-divider/>
 
         <!-- Content -->
         <div>
+            //Screenshot <br/>
             <p>Ich war schon immer begeistert von Augmented Reality Technologie. Sie erinnert an Iron Man’s HUD,
                 an die Sicht des Terminators oder an das Brettspiel an Bord des Millenium Falken. Heutige Möglichkeiten reichen
                 in den meisten Fällen noch nicht an diese Level heran, aber kommen wir mit Smartphones und Smart
@@ -98,7 +104,7 @@
                 Bewegung und Bauen zu wechseln. Diese sind auf Daumenhöhe angebracht, da die Anwendung auf den
                 Landscape Modus ausgerichtet ist. Zusätzlich lässt sich links ein Menü aufklappen,
                 über das man den gewünschten Baublock auswählen kann. <br/>
-                // Screenshot
+                // Screenshot<br/>
                 Wenn jetzt schon das Bauen ins Gespräch kam, sollte man es vielleicht genauer erklären. Das Bauen
                 ist essentiell, da es die einzige Möglichkeit darstellt, das Ziel zu erreichen und das Spiel
                 zu gewinnen. Dafür interagieren über den Cursor mit der Spielwelt, und können an bestimmte
@@ -129,9 +135,8 @@
 
             <p>Ich hoffe dieser Artikel konnte Ihnen einen kleinen Überblick in das Projekt meiner Bachelorthesis
                 bieten. Darin steckt viel Herzblut, und einige Ideen habe ich auch noch im Hinterkopf. Falls Fragen oder
-                Anregungen bestehen, melden Sie sich gerne
-            <p>.
-                Damit wünsche ich noch einen schönen Morgen, Nachmittag oder Abend. Jan </p>
+                Anregungen bestehen, melden Sie sich gerne!
+            <p>Damit wünsche ich noch einen schönen Morgen, Nachmittag oder Abend. Jan </p>
             <p>Und hier noch das Video meiner Präsentation zum Midpoint der Thesis, wo ich nochmal genauer auf die
                 einzelnen Bausteine der Anwendung eingehe: </p>
             <div style="width: 100%">
@@ -145,8 +150,15 @@
 </template>
 
 <script>
+import logoBunt from '@/assets/Bilder/jpl-f02-01.png';
+import SmallHeader from "@/components/SmallHeader";
+
 export default {
-    name: 'KickoffThesisApp'
+    name: 'KickoffThesisApp',
+    components: {SmallHeader},
+    data: () => ({
+       logoBunt,
+    }),
 }
 </script>
 
@@ -155,5 +167,15 @@ export default {
     width: 80%;
     border: none;
     height: 400px;
+}
+
+h3 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+p {
+    color: #555555;
+    padding-inline: 1em;
 }
 </style>
