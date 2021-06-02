@@ -5,9 +5,10 @@
             <v-row dense>
                 <v-col cols="6">
                     <div>
-                        Wenn Sie Fragen zu den Projekten haben, die ich bereits vollendet habe, weitere technische
-                        Hintergründe benötigen oder einfach jemanden zum Reden brauchen,
-                        können Sie mich gerne unter den Daten auf der nebenstehenden Visitenkarte erreichen.
+                        Haben Sie noch Fragen zu meinen vollendeten Projekten?
+                        Benötigen Sie weitere technische Hintergründe?
+                        Oder brauchen Sie einfach nur jemanden zum Reden?
+                        Dann können Sie mich gerne unter den Daten auf der nebenstehenden Visitenkarte erreichen.
                     </div>
                 </v-col>
                 <v-col cols="6">

@@ -7,7 +7,8 @@
                     <p class="pr-1 mr-4">
                         ich bin Jan. Ich habe Software Engineering an der Hochschule Heilbronn studiert und mich auf Frontend und Mobile Lösungen spezialisiert.
                         In meiner Freizeit arbeite ich gerne an kleinen und großen Projekten, auch außerhalb meiner Spezialisierungen.
-                        Seien es Microcontoller, Hardware Upcycling oder auch 3D / CAD Themen. Neben der IT schneide ich gerne Videos, fahr Mountainbike und... so Zeugs eben.
+                        Seien es Microcontoller, Hardware Upcycling oder auch 3D / CAD Themen. Neben der IT schneide
+                        ich gerne Videos, fahr Mountainbike und bin allgemein gerne draußen.
                     </p>
                     <div id="avatarImg">
                     </div>
