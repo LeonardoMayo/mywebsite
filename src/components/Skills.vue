@@ -128,8 +128,8 @@
 export default {
     name: 'Skills',
     data: () => ({
-        suplementaryBuzzwords: [ 'socket.io', 'ARCore & ARKit', 'SolidEdge' ],
-        suplementaryGenericBuzzwords: [ 'Office-Anwendungen', '3D Design', 'Scrum Erfahrung', 'Modellbau', 'Adobe-Anwendungen' ],
+        suplementaryBuzzwords: [ 'socket.io', 'ARCore & ARKit', 'SolidEdge', 'Scrum Erfahrung' ],
+        suplementaryGenericBuzzwords: [ 'Office-Anwendungen', '3D Design', 'Modellbau', 'Adobe-Anwendungen' ],
     }),
 }
 </script>

@@ -16,13 +16,13 @@
 
         <v-divider></v-divider>
 
-        <v-card-text>
+        <v-card-text v-show="false">
                 <a class="footerLinks">Sitemap</a>
                 <a class="footerLinks">AR PvPlatform Datenschutzbestimmung</a>
                 <a class="footerLinks">Impressum</a>
         </v-card-text>
 
-        <v-divider></v-divider>
+        <v-divider v-show="false"></v-divider>
 
         <v-card-text class="">
             {{ new Date().getFullYear() }} — <strong>Powered by Vuetify</strong>
