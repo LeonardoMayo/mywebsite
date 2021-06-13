@@ -1,6 +1,6 @@
 <template>
     <v-parallax class="pa-0" dark height="1000"
-        src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+        :src="headerGround1"
     >
         <v-row align="center" justify="center" class="pa-0">
             <v-col class="text-center pa-0" cols="12">
@@ -11,12 +11,14 @@
 </template>
 
 <script>
-import logoBunt from '@/assets/Bilder/jpl-f02-01.png'
+import logoBunt from '@/assets/Bilder/jpl-f02-01.png';
+import headerGround1 from '@/assets/Bilder/headerBackground.jpg';
 
 export default {
     name: 'Header',
     data: () => ({
-       logoBunt
+       logoBunt,
+        headerGround1,
     }),
 }
 </script>
